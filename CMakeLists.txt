@@ -1,21 +1,7 @@
-cmake_minimum_required(VERSION 2.8)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+#项目名称
 project(Cpp_Stack)
-
-# set(CMAKE_BUILD_TYPE "Release")
-# set(CMAKE_CXX_FLAGS "-O3")
-
-# # 添加Eigen头文件
-# # include_directories("/usr/include/eigen3")
-# # include_directories("funclib")
-
-# 生成可执行文件
-# # add_executable(demo demo.cpp)
-# # add_executable(demodlib demodlib.cpp)
-# # add_executable(svm_ex svm_ex.cpp)
-# add_executable(caller caller.cpp)
-
-
-
 
 set(CMAKE_C_COMPILER "gcc")
 set(CMAKE_CXX_COMPILER "g++")
@@ -33,10 +19,12 @@ add_subdirectory(src)
 
 # 编译成可执行文件
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build) ###### bin，改成build文件，2019.10.17
-add_executable(hello1 ${DIR_MAIN})
+add_executable(main.out ${DIR_MAIN})
 
 # 链接hellolib库，注意下面子目录src的CMakeLists
 link_directories("${PROJECT_SOURCE_DIR}/lib")
-target_link_libraries(hello1 hellolib)
+target_link_libraries(main.out hellolib)
+
+
 
 

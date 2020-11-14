@@ -1,1 +1,8 @@
 build/*
+src/CMakeFiles/*
+CMakeFiles/*
+Makefile
+src/Makefile
+CMakeCache.txt
+cmake_install.cmake
+lib/libhellolib.a
