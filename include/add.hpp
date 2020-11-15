@@ -6,5 +6,5 @@
 void addFun(int x, int y);
 
 void algoJingsaiRumen();
-
+void cTutorial();
 #endif

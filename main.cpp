@@ -58,5 +58,6 @@ int main(){
     read();
     inifileDemo();
     algoJingsaiRumen();
+    cTutorial();
     return 0;
 }
