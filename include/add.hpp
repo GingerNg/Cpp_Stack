@@ -5,4 +5,6 @@
 #include <stdio.h>
 void addFun(int x, int y);
 
+void algoJingsaiRumen();
+
 #endif
