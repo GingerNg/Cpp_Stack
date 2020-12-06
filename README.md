@@ -1,5 +1,5 @@
 # 20200629
-This repo is intended
+This repo is intended for cpp learning
 
 编译：
 CMakeLists.txt ==> compile_commands.json
