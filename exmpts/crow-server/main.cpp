@@ -43,7 +43,9 @@ int main()
     crow::App<ExampleMiddleware> app;
 
     app.get_middleware<ExampleMiddleware>().setMessage("hello");
-
+    /*
+    * CROW_ROUTES
+    */
     CROW_ROUTE(app, "/")
       .name("hello")([] {
           return "Hello World!";

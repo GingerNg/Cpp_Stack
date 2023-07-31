@@ -4,5 +4,7 @@
 
 #include<stdio.h>
 void helloFun();
+void algoJingsaiRumen();
+int ptr_demo();
 
 #endif

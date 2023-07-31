@@ -6,3 +6,4 @@ src/Makefile
 CMakeCache.txt
 cmake_install.cmake
 lib/libhellolib.a
+vendor/*

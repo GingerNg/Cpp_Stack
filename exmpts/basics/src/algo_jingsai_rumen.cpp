@@ -92,7 +92,7 @@ void cTutorial()
     }
     printf("Name = %s\n", name );
     printf("Description: %s\n", description );
-    free(description)
+    free(description);
 
     // 可变参数
     printf("Average of 2, 3, 4, 5 = %f\n", average(4, 2,3,4,5));

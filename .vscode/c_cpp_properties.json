@@ -3,7 +3,11 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/asio/1.28.0/include",
+                "${workspaceFolder}/vendor/Crow/include",
+                "/opt/homebrew/Cellar/boost/1.82.0_1/include",
+                "${workspaceFolder}/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
